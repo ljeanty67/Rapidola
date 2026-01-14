@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RapiDola - Digital Money for Haiti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#1E88E5',accent:'#E53935'}}}}</script>
+    <style>body{font-family:system-ui,-apple-system,sans-serif}.hero-bg{background:linear-gradient(135deg,#0E0E11,#1A1F2B)}.hidden{display:none}</style>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
+            <img src="https://i.postimg.cc/J4h7mgCy/image.png" alt="RapiDola" class="h-10">
+            <button onclick="location.href='#contact'" class="px-6 py-2 bg-primary text-white rounded-lg font-semibold">Get Started</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-bg text-white py-32">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <img src="https://i.postimg.cc/J4h7mgCy/image.png" alt="Logo" class="h-20 mx-auto mb-6">
+                <h1 class="text-5xl lg:text-6xl font-bold mb-4">Digital Money,<br>Moving Fast</h1>
+                <p class="text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">Send and receive digital dollars instantly between Haiti and the world.</p>
+                <button onclick="location.href='#contact'" class="px-8 py-4 bg-primary text-white rounded-lg text-lg font-semibold">Join the Waitlist →</button>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-16">Why Choose RapiDola</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow">
+                        <div class="w-16 h-16 bg-primary rounded-lg flex items-center justify-center text-white text-3xl mb-6">⚡</div>
+                        <h3 class="text-2xl font-semibold mb-4">Lightning Fast</h3>
+                        <p class="text-gray-600">Send and receive digital dollars in minutes, not days.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow">
+                        <div class="w-16 h-16 bg-primary rounded-lg flex items-center justify-center text-white text-3xl mb-6">🛡️</div>
+                        <h3 class="text-2xl font-semibold mb-4">Secure & Reliable</h3>
+                        <p class="text-gray-600">Bank-grade security protecting every transaction.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow">
+                        <div class="w-16 h-16 bg-primary rounded-lg flex items-center justify-center text-white text-3xl mb-6">🌍</div>
+                        <h3 class="text-2xl font-semibold mb-4">Built for Haiti</h3>
+                        <p class="text-gray-600">Designed specifically for Haitians at home and abroad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-white">
+            <div class="max-w-2xl mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-6">Join the Waitlist</h2>
+                <p class="text-xl text-gray-600 text-center mb-12">Be among the first to experience RapiDola.</p>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="space-y-4">
+                        <input type="text" placeholder="Full Name" class="w-full px-4 py-3 border rounded-lg">
+                        <input type="email" placeholder="Email" class="w-full px-4 py-3 border rounded-lg">
+                        <textarea placeholder="Message (Optional)" rows="4" class="w-full px-4 py-3 border rounded-lg"></textarea>
+                        <button onclick="alert('Thank you! We will be in touch soon.')" class="w-full py-4 bg-primary text-white rounded-lg font-semibold text-lg">Join Waitlist</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <img src="https://i.postimg.cc/J4h7mgCy/image.png" alt="RapiDola" class="h-10 mx-auto mb-4">
+            <p class="text-gray-600 mb-2">Fast, secure digital dollar transfers for Haiti and the diaspora.</p>
+            <p class="text-sm text-gray-500">rapidola.io</p>
+            <p class="text-sm text-gray-500 mt-8">© 2026 RapiDola. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
